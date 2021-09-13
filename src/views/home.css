@@ -1,0 +1,12 @@
+
+.multiImage{
+    height: 400px;
+    width: 100vw;
+    /* background-color: black; */
+    position: absolute;
+    left: 0rem;
+}
+
+.first-part{
+    height: 500px;
+}
