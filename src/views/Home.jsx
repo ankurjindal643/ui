@@ -100,14 +100,16 @@ function Home() {
 
             <Card className="m-3">
               <Card.Img height="52%" width="100%" src={image5} />
-              <Card.Title className="pt-2" tag="h5">
-                Design
-              </Card.Title>
-              <Card.Text className="pt-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-                consectetur harum recusandae labore numquam temporibus iure ex
-                odit perspiciatis ipsam?
-              </Card.Text>
+              <Card.Body>
+                <Card.Title className="" tag="h5">
+                  Design
+                </Card.Title>
+                <Card.Text className="">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolorum consectetur harum recusandae labore numquam temporibus
+                  iure ex odit perspiciatis ipsam?
+                </Card.Text>
+              </Card.Body>
             </Card>
           </CardGroup>
         </Container>
